@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>얼굴인식</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body style="text-align:center; font-size:2em;">
+  <h1 id="main">얼굴 인식 시스템 !!</h1>
+  <div> 당신의 얼굴을 입력해 주세요.</div>
+
+  <form action="/face2" method="post" enctype="multipart/form-data">
+    <input type="file" name="image">
+    <input type="submit" value="인식하기">
+</form>
+</body>
+
+</html>
